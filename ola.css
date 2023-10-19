@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Amatic+SC:wght@700&family=Bebas+Neue&family=Cookie&family=Dancing+Script:wght@600&family=Fuggles&family=IBM+Plex+Sans+Condensed:wght@500&family=Kanit&family=Kaushan+Script&family=Major+Mono+Display&family=Orbitron:wght@500&family=PT+Sans+Caption:wght@400;700&family=PT+Sans+Narrow&family=Permanent+Marker&family=Russo+One&family=Shadows+Into+Light&family=Source+Code+Pro&family=Tangerine:wght@700&family=Titan+One&family=Unbounded&family=Yatra+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Amatic+SC:wght@700&family=Bebas+Neue&family=Cookie&family=Dancing+Script:wght@600&family=Fuggles&family=IBM+Plex+Sans+Condensed:wght@500&family=Kanit&family=Kaushan+Script&family=Major+Mono+Display&family=Orbitron:wght@500&family=PT+Sans+Caption:wght@400;700&family=PT+Sans+Narrow&family=Permanent+Marker&family=Rajdhani:wght@400;500&family=Russo+One&family=Shadows+Into+Light&family=Source+Code+Pro&family=Tangerine:wght@700&family=Titan+One&family=Unbounded&family=Yatra+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Amatic+SC:wght@700&family=Bebas+Neue&family=Cookie&family=Dancing+Script:wght@600&family=Fuggles&family=IBM+Plex+Sans+Condensed:wght@500&family=Kanit&family=Kaushan+Script&family=Lilita+One&family=Major+Mono+Display&family=Orbitron:wght@500&family=PT+Sans+Caption:wght@400;700&family=PT+Sans+Narrow&family=Permanent+Marker&family=Rajdhani:wght@400;500&family=Rowdies:wght@300&family=Russo+One&family=Shadows+Into+Light&family=Source+Code+Pro&family=Tangerine:wght@700&family=Titan+One&family=Unbounded&family=Yatra+One&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e6efed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+/* NAVBAR STYLING */
+main {
+  height: 85vh;
+  width: 80%;
+  border-radius: 30px;
+  box-shadow: 4px 4px 20px black;
+  background: linear-gradient(60deg, #e6efed 50%, #8ddcc93f 50%);
+  position: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+}
+
+#nav-links a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+#nav-links a:hover {
+  text-decoration: underline;
+  color: rgb(71, 160, 227);
+}
+nav div button {
+  padding: 8px;
+  width: 130px;
+  border-radius: 18px;
+  background-color: rgb(93, 192, 223);
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  border-color: rgb(93, 192, 223);
+}
+
+/* HEROSECTION STYLING */
+#hero-section {
+  display: flex;
+}
+
+#ola-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5.8rem;
+  /* align-items: center; */
+}
+
+#ola-content div {
+  font-size: 2.5rem;
+  margin-left: 25px;
+  letter-spacing: 0.2rem;
+  font-family: Rajdhani;
+  margin-bottom: -1.2rem;
+}
+
+#ola-content span {
+  font-size: 4.3rem;
+  margin-left: 22px;
+  font-family: Russo One;
+  text-shadow: 2px 2px 5px black;
+}
+#ola-content p {
+  margin-left: 22px;
+  font-size: 16px;
+}
+#ola-content button {
+  padding: 8px;
+  width: 140px;
+  border-radius: 18px;
+  background-color: rgb(91, 186, 123);
+  color: white;
+  font-size: 16px;
+  border-color: rgb(91, 186, 123);
+  letter-spacing: 1.5px;
+  margin-left: 20px;
+  margin-top: 2.5rem;
+}
+#ola-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+#ola-img h1 {
+  font-size: 60px;
+  color: white;
+  font-family: Kaushan Script;
+  letter-spacing: 15px;
+}
+#ola-detail {
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(127, 200, 207, 0.6);
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 32rem;
+  border-radius: 20px;
+}
+button:hover {
+  transform: scale(1.04);
+}
